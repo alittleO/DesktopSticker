@@ -1,57 +1,15 @@
 # DesktopSticker / 桌面贴图
 
-[English](#english) | [中文](#chinese)
-
----
-
-<a name="english"></a>
-## English
-
-**DesktopSticker** is a lightweight Windows application written in Python that allows you to pin images to your desktop. It acts like a digital sticky note for images, perfect for keeping important information, reminders, or reference charts visible on your desktop wallpaper.
-
-### ✨ Features
-
-*   **Desktop Integration**: Images are pinned to the desktop layer (not "always on top"), so they don't block your active windows.
-*   **Draggable**: Easily move the image anywhere on your screen by dragging it.
-*   **Resizable**:
-    *   **Mouse Wheel**: Hover over the image and scroll to zoom in/out.
-    *   **Right-click Menu**: Select "Resize..." for precise pixel-width adjustment.
-*   **Easy Image Swapping**: Right-click to change the displayed image instantly.
-*   **Auto-Start**: Optional "Start with Windows" feature in the right-click menu.
-*   **Lightweight**: Built with Tkinter, consuming minimal system resources.
-
-###  Getting Started
-
-#### Prerequisites
-*   Windows OS
-*   Python 3.x installed
-*   `Pillow` library
-
-#### Installation & Run
-
-1.  Clone this repository or download the source code.
-2.  Install the required dependency:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Run the application**:
-    *   Double-click `run.bat` (Recommended for Windows users).
-    *   Or run via command line: `python main.py`
-
-#### Usage
-*   **First Run**: A gray box will appear. Right-click it and select **"Change Image..."** to pick your image.
-*   **Move**: Click and drag the image.
-*   **Resize**: Scroll mouse wheel or use the right-click menu.
-*   **Close**: Right-click and select "Close".
+[中文](#chinese) | [English](#english)
 
 ---
 
 <a name="chinese"></a>
-## 🇨🇳 中文
+## 中文
 
 **DesktopSticker (桌面贴图)** 是一款基于 Python 编写的轻量级 Windows 桌面工具。它可以将图片“贴”在你的桌面上，就像便利贴一样。非常适合用来放置备忘录、参考图表或任何你需要经常看到的重要内容。
 
-### ✨ 功能特点
+### 功能特点
 
 *   **桌面层级显示**：图片贴在桌面层，不会置顶遮挡浏览器或其他正在使用的软件窗口（按 Win+D 显示桌面时可见）。
 *   **自由拖拽**：按住图片任意位置即可拖动，调整位置。
@@ -88,7 +46,49 @@
 
 ---
 
-## 📄 许可证 / License
+<a name="english"></a>
+## English
+
+**DesktopSticker** is a lightweight Windows application written in Python that allows you to pin images to your desktop. It acts like a digital sticky note for images, perfect for keeping important information, reminders, or reference charts visible on your desktop wallpaper.
+
+### Features
+
+*   **Desktop Integration**: Images are pinned to the desktop layer (not "always on top"), so they don't block your active windows.
+*   **Draggable**: Easily move the image anywhere on your screen by dragging it.
+*   **Resizable**:
+    *   **Mouse Wheel**: Hover over the image and scroll to zoom in/out.
+    *   **Right-click Menu**: Select "Resize..." for precise pixel-width adjustment.
+*   **Easy Image Swapping**: Right-click to change the displayed image instantly.
+*   **Auto-Start**: Optional "Start with Windows" feature in the right-click menu.
+*   **Lightweight**: Built with Tkinter, consuming minimal system resources.
+
+### Getting Started
+
+#### Prerequisites
+*   Windows OS
+*   Python 3.x installed
+*   `Pillow` library
+
+#### Installation & Run
+
+1.  Clone this repository or download the source code.
+2.  Install the required dependency:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the application**:
+    *   Double-click `run.bat` (Recommended for Windows users).
+    *   Or run via command line: `python main.py`
+
+#### Usage
+*   **First Run**: A gray box will appear. Right-click it and select **"Change Image..."** to pick your image.
+*   **Move**: Click and drag the image.
+*   **Resize**: Scroll mouse wheel or use the right-click menu.
+*   **Close**: Right-click and select "Close".
+
+---
+
+## 许可证 / License
 
 本项目采用 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)** 国际许可协议进行许可。
 
