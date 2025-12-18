@@ -5,7 +5,7 @@
 ---
 
 <a name="english"></a>
-## 🇬🇧 English
+## English
 
 **DesktopSticker** is a lightweight Windows application written in Python that allows you to pin images to your desktop. It acts like a digital sticky note for images, perfect for keeping important information, reminders, or reference charts visible on your desktop wallpaper.
 
@@ -62,7 +62,7 @@
 *   **开机自启**：右键菜单中提供“开机自启”选项，勾选后软件随系统启动。
 *   **极低占用**：使用 Python 原生 Tkinter 库，内存和 CPU 占用极低。
 
-### � 使用说明
+### 使用说明
 
 #### 环境要求
 *   Windows 操作系统
